@@ -1,0 +1,242 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+  font-family: 'Ubuntu', sans-serif;
+  margin: auto !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+.button {
+  border: 0px !important;
+}
+h2 {
+  line-height: normal;
+}
+
+.border-red {
+  border-top: 5px solid red;
+}
+.white-border {
+  border-top: 1px solid white;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3b5998 !important;
+  border-color: #3b5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #db4a39 !important;
+  border-color: #db4a39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.black-background {
+  background-color: #222221;
+  color: white;
+  p {
+    color: white;
+  }
+}
+
+.gray-background {
+  background-color: #bdccd4;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.title-bold {
+  font-size: 31px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.subtitle-bold {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.image-container {
+  .first {
+    padding: 0px !important;
+  }
+}
+
+table {
+  margin: 0px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.pl3 {
+  padding-left: 32px;
+}
+
+.red {
+  color: red;
+}
+
+.pr3 {
+  padding-right: 33px;
+}
+
+.center-image {
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.nomargin {
+  margin: 0px !important;
+}
+
+a {
+  color: #2e2e2d;
+  font-weight: bold;
+
+  &:hover {
+    color: #585857;
+  }
+}
+
+.logo {
+  width: 120px;
+}
+
+.primary {
+  background-color: #158bd9;
+  border-radius: 50px;
+}
+table.button table td {
+  border: 0px;
+}
+
+table.button table td a {
+  text-align: center;
+}
+.rouded {
+  border-radius: 50px;
+
+  tr {
+    td {
+      table {
+        td {
+          border-radius: 50px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+table.button table td a {
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer {
+  a {
+    color: white;
+  }
+  h6 {
+    color: white;
+    font-size: 13px;
+  }
+  p {
+    color: white;
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .social {
+    width: 13px;
+  }
+  table.menu td.menu-item,
+  table.menu th.menu-item {
+    padding: 0;
+    padding-right: 5px;
+  }
+
+  table.menu td.menu-item a,
+  table.menu th.menu-item a {
+    color: white;
+  }
+
+  table.menu th.menu-item .red {
+    color: #c10e1a;
+  }
+
+  table.menu .mr-4 {
+    padding-right: 40px;
+  }
+
+  table.menu-icon {
+    .menu-item {
+      padding: 0px !important;
+    }
+  }
+}
+
+.image-feature {
+  width: 226px;
+}
