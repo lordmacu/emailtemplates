@@ -101,6 +101,11 @@ table.button.google table td {
   line-height: normal;
 }
 
+.font-sixteen {
+  font-size: 14.4px;
+  line-height: normal;
+}
+
 .bold-text {
   font-weight: bold;
 }
@@ -144,7 +149,9 @@ table {
 .nomargin {
   margin: 0px !important;
 }
-
+.nopadding {
+  padding: 0px !important;
+}
 a {
   color: #2e2e2d;
   font-weight: bold;
@@ -170,14 +177,17 @@ table.button table td a {
   text-align: center;
 }
 .rouded {
-  border-radius: 50px;
-
+  padding-top: 16px;
+  padding-bottom: 16px;
   tr {
     td {
       table {
         td {
+          padding-top: 6px;
+          padding-bottom: 6px;
           border-radius: 50px;
           font-size: 14px;
+          background-color: #4274ce;
         }
       }
     }
@@ -200,7 +210,7 @@ table.button table td a {
   }
   p {
     color: white;
-    font-size: 10px;
+    font-size: 7px;
     margin-bottom: 5px;
   }
 
@@ -239,4 +249,24 @@ table.button table td a {
 
 .image-feature {
   width: 226px;
+}
+
+.column-image {
+  width: 180px;
+}
+
+.column-image-text {
+  width: 185px;
+}
+
+.text-twelve {
+  font-size: 11px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.float-right {
+  float: right;
 }
