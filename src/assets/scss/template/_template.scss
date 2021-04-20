@@ -20,6 +20,18 @@ h2 {
   line-height: normal;
 }
 
+th.padding-right {
+  padding-right: 16px !important;
+}
+
+.main {
+  padding-left: 50px;
+}
+
+.full-width {
+  width: 100%;
+}
+
 .border-red {
   border-top: 5px solid red;
 }
@@ -194,10 +206,20 @@ table.button table td a {
   }
 }
 
+a {
+  height: auto !important;
+}
+
 table.button table td a {
   font-size: 14px;
   padding-left: 30px;
   padding-right: 30px;
+}
+table.button .special td a {
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 25px !important;
 }
 
 .footer {
@@ -269,4 +291,65 @@ table.button table td a {
 
 .float-right {
   float: right;
+}
+
+.background-sign {
+  background-image: url(http://adobecomunicaciones.com/assetsmtk/abodeSign/heroSign.png);
+  background-size: cover;
+}
+.hero-sign {
+  p {
+    color: white;
+  }
+}
+p.text-main {
+  text-align: center;
+  font-weight: 600;
+}
+.main-items {
+  background-color: #bca6d9;
+}
+
+.margin-bottom {
+  margin-bottom: 0 !important;
+}
+.main-items a {
+  line-height: 12px;
+  height: 8px;
+}
+.img-right {
+  position: absolute;
+  width: 205px;
+  right: -35px;
+}
+.img-left {
+  position: absolute;
+  left: -33px;
+  width: 190px;
+}
+
+.gray-text {
+  color: #58595b;
+}
+
+.mini-text {
+  font-size: 8px;
+}
+.separator {
+  width: 25px;
+}
+.main-text {
+  p.title {
+    color: #574cc8;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  p.text-bold {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  p.text {
+    font-size: 14px;
+  }
 }

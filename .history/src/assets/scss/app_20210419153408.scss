@@ -1,0 +1,27 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.background-sign{
+    background-image: url(http://adobecomunicaciones.com/assetsmtk/abodeSign/heroSign.png);
+    background-size: cover;
+}
+.hero-sign{
+   p{
+    color: white;
+   }
+}
+p.text-main {
+    text-align: center;
+    font-weight: 600;
+}
+.main-items {
+    background-color: #bca6d9;
+}
+.padding-min{
+    padding: 3px!important;
+}
+.margin-bottom{
+    margin-bottom: 1!important;
+}
