@@ -3,6 +3,7 @@
 
 @import 'template/template';
 
+/*============end strat=================*/
 .background-sign{
     background-image: url(http://adobecomunicaciones.com/assetsmtk/abodeSign/heroSign.png);
     background-size: cover;
@@ -54,3 +55,50 @@ p.text-main {
         font-size: 14px;
     }
 }
+
+/*============end adobeSign=================*/
+/*============strat adobeDocument=================*/
+
+.adobe-documents{
+    .logo{
+        width: 247px;
+    }
+    .title-bold{
+        font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    line-height: 33px;
+    }
+    .text-secondary p {
+        font-size: 15px!important;
+        line-height: 20px!important;
+    }
+    .text-red{
+        color: red;
+    }
+    
+}
+.mani-adobe-docuemnts{
+    li {
+        color: red;
+        font-weight: 700;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+.footer-client{
+    .rouded tr td table td {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 23px;
+        font-size: 14px;
+        background-color: #4274ce;
+        width: 215px;
+    }
+    p{
+        color: black;
+    }
+}
+
+/*============end adobeDocument=================*/
