@@ -29,7 +29,7 @@ th.padding-right {
 }
 
 .full-width {
-  width: 100%;
+  width: 100% !important;
 }
 
 .border-red {
@@ -91,8 +91,23 @@ table.button.google table td {
   p {
     color: white;
   }
+  a {
+    color: white;
+  }
 }
 
+.grey-background {
+  background-color: #262626;
+  color: white;
+  p {
+    color: white;
+    font-size: 11px !important;
+  }
+  a {
+    font-size: 11px !important;
+    color: white;
+  }
+}
 .gray-background {
   background-color: #bdccd4;
   padding-left: 40px;
@@ -232,7 +247,7 @@ table.button .special td a {
   }
   p {
     color: white;
-    font-size: 7px;
+    font-size: 13px;
     margin-bottom: 5px;
   }
 
