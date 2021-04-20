@@ -1,0 +1,43 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.background-sign{
+    background-image: url(http://adobecomunicaciones.com/assetsmtk/abodeSign/heroSign.png);
+    background-size: cover;
+}
+.hero-sign{
+   p{
+    color: white;
+   }
+}
+p.text-main {
+    text-align: center;
+    font-weight: 600;
+}
+.main-items {
+    background-color: #bca6d9;
+}
+.padding-min{
+    padding: 3px!important;
+}
+.margin-bottom{
+    margin-bottom: 0!important;
+}
+.main-items a {
+    line-height: 12px;
+    height: 8px;
+}
+.main-text{
+   p.title {
+        color: #574cc8;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    p.text-bold {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
