@@ -28,10 +28,6 @@ th.padding-right {
   padding-left: 50px;
 }
 
-.full-width {
-  width: 100% !important;
-}
-
 .border-red {
   border-top: 5px solid red;
 }
@@ -367,4 +363,8 @@ p.text-main {
   p.text {
     font-size: 14px;
   }
+}
+
+.full-width {
+  width: 100% !important;
 }
