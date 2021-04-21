@@ -60,9 +60,6 @@ p.text-main {
 /*============strat adobeDocument=================*/
 
 .adobe-documents{
-    .logo{
-        width: 247px;
-    }
     .title-bold{
         font-size: 30px;
     margin-bottom: 5px;
@@ -76,75 +73,6 @@ p.text-main {
     .text-red{
         color: red;
     }
-    
-}
-.mani-adobe-docuemnts{
-    li {
-        color: red;
-        font-weight: 700;
-    }
-    p{
-        font-size: 14px;
-    }
-}
-.footer-client{
-    .rouded tr td table td {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 23px;
-        font-size: 14px;
-        background-color: #4274ce;
-        width: 215px;
-    }
-    p{
-        color: black;
-    }
 }
 
 /*============end adobeDocument=================*/
-/*============end adobeCreate=================*/
-.hero{
-    .logo {
-        width: 200px;
-    }
-    p.text {
-        font-size: 23px;
-        line-height: 18px;
-    }
-    .text-bold {
-        font-weight: 800;
-    }
-}
-.main-create{
-    img.icon{
-        width: 90px;
-        margin: auto;
-    }
-    
-}
-.main-text-create{
-    p.title{
-        font-size: 14px;
-        color: #fc6bfc;
-        font-weight: 600;
-        line-height: 10px;
-    }
-   }
-   .main-create{
-       p.text{
-        font-size: 11px;
-        font-weight: 700;
-        margin-top: 25px;
-       
-       }
-   }
-   .blue-text{
-       color: #3965ef;
-   }
-   .text-footer{
-    font-size: 10px;
-    text-align: center;
-    color: gray;
-   }
-
-/*============end adobeCreate=================*/

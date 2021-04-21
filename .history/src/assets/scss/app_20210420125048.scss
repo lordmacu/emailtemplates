@@ -1,0 +1,68 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+/*============end strat=================*/
+.background-sign{
+    background-image: url(http://adobecomunicaciones.com/assetsmtk/abodeSign/heroSign.png);
+    background-size: cover;
+}
+.hero-sign{
+   p{
+    color: white;
+   }
+}
+p.text-main {
+    text-align: center;
+    font-weight: 600;
+}
+.main-items {
+    background-color: #bca6d9;
+}
+.padding-min{
+    padding: 3px!important;
+}
+.margin-bottom{
+    margin-bottom: 0!important;
+}
+.main-items a {
+    line-height: 12px;
+    height: 8px;
+}
+.img-right {
+    position: absolute;
+    width: 205px;
+    right: -35px;
+}
+.img-left {
+    position: absolute;
+    left: -33px;
+    width: 190px;
+}
+.main-text{
+   p.title {
+        color: #574cc8;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    p.text-bold {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    p.text {
+        font-size: 14px;
+    }
+}
+
+/*============end adobeSign=================*/
+/*============strat adobeDocument=================*/
+
+.adobe-documents{
+    .title-bold{
+        
+    }
+}
+
+/*============end adobeDocument=================*/
