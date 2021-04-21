@@ -152,7 +152,11 @@ p.text-main {
 
 
 /*============start educa=================*/
-
+@media only screen and (max-width: 796px){
+    table.body img.logo-three {
+        width: 175px;
+    }
+}
 .hero-educa {
     p.text-hero {
         font-size: 26px;
@@ -167,6 +171,8 @@ p.text-main {
     .logo {
         width: 140px;
     }
+   
+ 
 }
 .main-text-educa{
     p.text {
@@ -211,5 +217,22 @@ p.text-main {
 .end-main-educa .logo-educa-three {
     margin: auto;
     width: 160px;
+}
+img.logo-three {
+    width: 175px;
+}
+.bold{
+    font-weight: 900;
+}
+.cotiza {
+    position: relative;
+    left: 10px;
+}
+.four{
+    table.button table td a {
+        font-size: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 /*============end educa=================*/
