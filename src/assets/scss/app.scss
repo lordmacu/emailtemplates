@@ -146,6 +146,7 @@ p.text-main {
     text-align: center;
     color: gray;
    }
+  
 
 /*============end adobeCreate=================*/
 
@@ -181,11 +182,34 @@ p.text-main {
         color: #fefefe;
         background: red;
         padding:5px;
-        border-radius: 20px;
+        border-radius: 28px;
     }
     .logo {
         margin: auto;
         width: 200px;
     }
+    .logo-educa-footer{
+        width: 200px;
+    }
+    .text-about{
+        font-weight: 600;
+    }
+}
+.text-blue {
+    color: #2D90DD;
+    
+}
+.text-red{
+    color: #ff4c31;
+    
+}
+.text-bold{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 25px;
+}
+.end-main-educa .logo-educa-three {
+    margin: auto;
+    width: 160px;
 }
 /*============end educa=================*/
