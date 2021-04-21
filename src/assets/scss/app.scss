@@ -148,3 +148,44 @@ p.text-main {
    }
 
 /*============end adobeCreate=================*/
+
+
+/*============start educa=================*/
+
+.hero-educa {
+    p.text-hero {
+        font-size: 26px;
+        line-height: 22px;
+        color: #ff4c31;
+        font-weight: 900;
+    }
+    p.text {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .logo {
+        width: 140px;
+    }
+}
+.main-text-educa{
+    p.text {
+        font-size: 14px;
+    }
+    .text-red{
+        color: #ff4c31;
+    }
+}
+.end-main-educa{
+    table.button table td {
+        text-align: left;
+        color: #fefefe;
+        background: red;
+        padding:5px;
+        border-radius: 20px;
+    }
+    .logo {
+        margin: auto;
+        width: 200px;
+    }
+}
+/*============end educa=================*/
